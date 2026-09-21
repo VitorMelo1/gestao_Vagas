@@ -1,8 +1,8 @@
-package com.vitor.gestao_vagas.modules.candidate.controllers;
+package com.vitor.gestao_vagas.modules.controllers;
 
 import org.springframework.web.bind.annotation.RestController;
 
-import com.vitor.gestao_vagas.modules.candidate.CandidateEntity;
+import com.vitor.gestao_vagas.modules.CandidateEntity;
 
 import jakarta.validation.Valid;
 
