@@ -1,6 +1,6 @@
-package com.vitor.gestao_vagas.modules;
+package com.vitor.gestao_vagas.modules.candidate;
 
-import jakarta.annotation.Generated;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
