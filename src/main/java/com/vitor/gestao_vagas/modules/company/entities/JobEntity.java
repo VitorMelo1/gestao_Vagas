@@ -20,9 +20,10 @@ public class JobEntity {
     private String benefits;
 
     @ManyToOne()
-    @JoinColumn(name = "Ccompany_id")
+    @JoinColumn(name = "Ccompany_id", insertable = false, updatable = false)
     private CompanyEntity companyEntity;
 
+    @Column(name = "company_id")
     private UUID companyId;
 
     @CreationTimestamp
